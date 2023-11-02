@@ -4,21 +4,12 @@
   border: 0;
 }
 
-img{
-  size: 100px;
-  height: 150px;
-  width:200px;
-  margin: 5px;
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-style: normal;
   padding: 5px;
-}
-
-h1{
-  color: blue;
-}
-
-html{
-  background-color:gold
-  
+  justify-content: center;
 }
 
 nav{
@@ -52,4 +43,11 @@ section{
   margin-top: 200px;
   text-align: center;
   font-weight: bold;
+}
+.column{
+  width: 300px;
+  float: right;
+}
+body{
+  background-color: gray;
 }
