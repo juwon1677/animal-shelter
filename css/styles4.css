@@ -1,14 +1,9 @@
-*{
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-}
 header{
-  width: 100%;
-  height: 100vh;
-  background-image: url(../img/b.webp);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+width: 100; 
+height: 100vh;
+ background-image: url(../img/cute.webp);
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 nav{
   width: 100%;
@@ -36,6 +31,12 @@ nav .menu a{
   font-size: 22px;
   text-decoration: none;
 }
+.menu a:first-child{
+  color: blue;
+}
+.menu a:hover{
+color: blue;
+}
 section{
   color: black;
   margin-top: 200px;
@@ -45,16 +46,5 @@ section{
 section h1{
   font-size: 50px;
   margin-top: 5px;
-  text-shadow: 3px 1px rgb(110, 26, 143);
-}
-.menu{
-  margin: 12px;
-  border: 2px solid blueviolet;
-  padding: 4px;
-}
-.menu a:first-child{
-color: blueviolet;
-}
-.menu a:hover{
-  color: blueviolet;
+  text-shadow: 3px 1px rgb(38, 1, 247);
 }

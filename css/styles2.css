@@ -53,3 +53,9 @@ section{
   text-align: center;
   font-weight: bold;
 }
+.menu a:first-child{
+  color: orange;
+}
+.menu a:hover{
+  color: orange;
+}
