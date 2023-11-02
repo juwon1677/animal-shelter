@@ -63,4 +63,9 @@ nav .menu a {
   font-size: 22px;
   text-decoration: none;
 }
-
+.menu a:first-child{
+  color: blue
+}
+.menu a:hover{
+  color: blue;
+}
